@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Environment variables & local secrets
+.env
+.env.local
+.env.*.local
+
+# Test Reports & Allure Artifacts
+allure-results/
+allure-report/
+allure-custom/
+screenshots/
+logs/
+*.log
+
+# Build & TypeScript Output
+dist/
+build/
+*.tsbuildinfo
+
+# OS Metadata & Local Editor Configurations
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# Appium Drivers & Temporary Cache
+.appium/
+.npm/
+
+# Large iOS Simulator builds (keep repository lean)
+app/ios/*.app/
+app/ios/*.zip
+app/ios/*.ipa
+
